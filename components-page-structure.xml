@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<Root>	
+	<document_container>   
+		<product_components_item_pages_container>
+			<product_page_title></product_page_title>
+			<pruduct_page_category_box_group>
+				<product_page_category_border></product_page_category_border>
+				<product_page_category_box></product_page_category_box>
+			</pruduct_page_category_box_group>
+			<components_items_container>
+				<component>
+					<callout_group>
+						<call_out_letter></call_out_letter>
+						<call_out_image_container></call_out_image_container>
+						<call_out_image_note></call_out_image_note>
+					</callout_group>
+				</component>
+			</components_items_container>
+		</product_components_item_pages_container>
+		<product_components_item_pages_container>
+			<product_page_title></product_page_title>
+			<pruduct_page_category_box_group>
+				<product_page_category_border></product_page_category_border>
+				<product_page_category_box></product_page_category_box>
+			</pruduct_page_category_box_group>
+			<component_list_container>
+				<components_table></components_table>
+			</component_list_container>
+		</product_components_item_pages_container>
+	</document_container>
+</Root>
