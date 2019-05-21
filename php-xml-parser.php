@@ -1,5 +1,5 @@
 <?php
-$xmlUrl = "Victory-Step-COMP(CCD-0002541).xml";
+$xmlUrl = "10577-xml.xml";
 $xmlStr = simplexml_load_file($xmlUrl) or die("Error: Cannot create object");;
 //$xmlStr = SimpleXMLElement($xmlStr);
 
@@ -19,7 +19,7 @@ $page_html = $page_html.'<div class="components-webpage-container">';
 
  //   $page_html = $page_html.'<section class="standard-section product-components-items-section">';
 /**
- * the following for each and its nested items loop through the xml file to provide the components images with their corresponding callouts.
+ * the following foreach, loops through the xml file to provide the components images with their corresponding callouts.
  */
         foreach ($xmlStr->component_images_section as $component_images_section ){
             $page_html = $page_html .'<div class="standard-container product-components-items-section">'.

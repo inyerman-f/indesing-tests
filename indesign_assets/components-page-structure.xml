@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<components_webpage>
+		<component_images_section>
+			<web_page_title></web_page_title>
+			<category_box_group>
+				<category_box_border></category_box_border>
+				<category_box></category_box>
+			</category_box_group>
+			<components_images_container>
+				<web_page_subtitle></web_page_subtitle>
+				<web_page_note></web_page_note>
+				<component>
+					<callout_group>
+						<callout_letter></callout_letter>
+						<callout_image_container ></callout_image_container>
+						<callout_image_note></callout_image_note>
+					</callout_group>
+				</component>
+			</components_images_container>
+		</component_images_section>
+		<components_list_section>
+			<web_page_title></web_page_title>
+			<category_box_group>
+				<category_box_border></category_box_border>
+				<category_box></category_box>
+			</category_box_group>
+			<component_list_container>
+				<web_page_subtitle></web_page_subtitle>
+				<web_page_note></web_page_note>
+				<components_table>
+					<table>
+						<table_head_cell></table_head_cell>
+						<table_callout></table_callout>
+						<table_part_number></table_part_number>
+						<table_description></table_description>
+					</table>
+				</components_table>
+			</component_list_container>
+		</components_list_section>
+	</components_webpage>
+
+
