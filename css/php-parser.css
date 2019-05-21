@@ -20,8 +20,10 @@
 .product-page-title{
     text-align: center;
     position: relative;
-    margin: auto;
+    margin: 20px auto -10px;
     width: 100%!important;
+
+
 }
 
 .category-box-group{
@@ -37,7 +39,7 @@
 
 .category-box{
     position: relative;
-    margin-top: -10px!important;
+    top: -12px;
     left: 0;
     right: 0;
     margin-left: auto!important;
@@ -122,14 +124,14 @@ table.Parts-Table{
 
 .callout-letter{
     position:relative;
-    margin-left: 25px;
+    margin-left: 27px;
     margin-bottom:unset!important;
     z-index:1;
     border:none!important;
     text-align:left;
 }
 .callout-letter>h4{
-    margin-bottom:-20px;
+    margin-bottom:-32px;
 }
 
 
