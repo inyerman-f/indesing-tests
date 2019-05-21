@@ -31,9 +31,6 @@ div.callout-img-container {
 div.components-items-container {
 	border-style:solid;
 }
-div.document-container {
-	border-style:solid;
-}
 section.product-components-item-pages-container {
 	border-style:solid;
 }
@@ -385,7 +382,7 @@ table._idGenTablePara-1 {
 	margin-left:auto;
 	margin-right:auto;
 }
-#_idContainer000, #_idContainer104, #_idContainer105 {
+#_idContainer000, #_idContainer105 {
 	width:576px;
 }
 #_idContainer001, #_idContainer106 {
@@ -540,7 +537,7 @@ table._idGenTablePara-1 {
 	height:35px;
 	width:40px;
 }
-#_idContainer054, #_idContainer109, #_idContainer112 {
+#_idContainer054, #_idContainer110 {
 	display:inline-block;
 	width:576px;
 }
@@ -568,7 +565,7 @@ table._idGenTablePara-1 {
 	padding:4.50px 4.50px 4.50px 4.50px;
 	width:157px;
 }
-#_idContainer110 {
+#_idContainer109 {
 	display:inline-block;
 	width:143px;
 }

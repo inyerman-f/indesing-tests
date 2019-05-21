@@ -2,14 +2,14 @@
 <Root>
 	<components_webpage>
 		<component_images_section>
-			<product_page_title></product_page_title>
+			<web_page_title></web_page_title>
 			<category_box_group>
 				<category_box_border></category_box_border>
 				<category_box></category_box>
 			</category_box_group>
 			<components_images_container>
-				<product_page_subtitle></product_page_subtitle>
-				<product_page_note></product_page_note>
+				<web_page_subtitle></web_page_subtitle>
+				<web_page_note></web_page_note>
 				<component>
 					<callout_group>
 						<callout_letter></callout_letter>
@@ -20,29 +20,24 @@
 			</components_images_container>
 		</component_images_section>
 		<components_list_section>
-			<product_page_title></product_page_title>
+			<web_page_title></web_page_title>
 			<category_box_group>
 				<category_box_border></category_box_border>
 				<category_box></category_box>
 			</category_box_group>
 			<component_list_container>
-				<product_page_subtitle></product_page_subtitle>
-				<product_page_note></product_page_note>
+				<web_page_subtitle></web_page_subtitle>
+				<web_page_note></web_page_note>
 				<components_table>
-					<table_head>
-						<table_row>
-							<thead_cell></thead_cell>
-						</table_row>
-					</table_head>
-					<table_body>
-						<table_row>
-							<table_callout></table_callout>
-							<table_part_number></table_part_number>
-							<table_description></table_description>
-						</table_row>
-					</table_body>
+					<table>
+						<table_head_cell></table_head_cell>
+						<table_callout></table_callout>
+						<table_part_number></table_part_number>
+						<table_description></table_description>
+					</table>
 				</components_table>
 			</component_list_container>
 		</components_list_section>
 	</components_webpage>
 </Root>
+

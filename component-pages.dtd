@@ -1,30 +1,23 @@
-<?xml version="1.0"?>
-<!DOCTYPE components_webpage [
-
-<!ELEMENT Root (components_webpage?)>
 <!ELEMENT components_webpage (component_images_section?,components_list_section?)>
-<!ELEMENT component_images_section (product_page_title?,category_box_group?,components_images_container*)>
-<!ELEMENT product_page_title (#PCDATA)>
+<!ELEMENT component_images_section (web_page_title?,category_box_group?,components_images_container*)>
+<!ELEMENT web_page_title (#PCDATA)>
 <!ELEMENT category_box_group (category_box_border,category_box)>
 <!ELEMENT category_box_border (#PCDATA)>
 <!ELEMENT category_box (#PCDATA)>
-<!ELEMENT components_images_container (product_page_subtitle?,product_page_note*,component*)>
-<!ELEMENT product_page_subtitle (#PCDATA)>
-<!ELEMENT product_page_note (#PCDATA)>
+<!ELEMENT components_images_container (web_page_subtitle*,web_page_note*,component*)>
+<!ELEMENT web_page_subtitle (#PCDATA)>
+<!ELEMENT web_page_note (#PCDATA)>
 <!ELEMENT component (callout_group?)>
 <!ELEMENT callout_group (callout_letter?,callout_image_container?,callout_image_note?)>
 <!ELEMENT callout_letter (#PCDATA)>
 <!ELEMENT callout_image_container (#PCDATA)>
+<!ATTLIST callout_image_container href CDATA #REQUIRED>
 <!ELEMENT callout_image_note (#PCDATA)>
-<!ELEMENT components_list_section (product_page_title?,category_box_group?,component_list_container*)>
-<!ELEMENT component_list_container (product_page_subtitle*,product_page_note*,components_table?)>
-<!ELEMENT components_table (table_head?,table_body?)>
-<!ELEMENT table_head (table_row?)>
-<!ELEMENT table_body (table_row*)>
-<!ELEMENT table_row (thead_cell*,table_callout*,table_part_number*,table_description*)>
-<!ELEMENT thead_cell (#PCDATA)>
+<!ELEMENT components_list_section (web_page_title?,category_box_group?,component_list_container*)>
+<!ELEMENT component_list_container (web_page_subtitle*,web_page_note*,components_table?)>
+<!ELEMENT components_table (table?)>
+<!ELEMENT table (table_head_cell*, table_callout*, table_part_number*, table_description* )>
+<!ELEMENT table_head_cell (#PCDATA)>
 <!ELEMENT table_callout (#PCDATA)>
 <!ELEMENT table_part_number (#PCDATA)>
 <!ELEMENT table_description (#PCDATA)>
-
-]>
