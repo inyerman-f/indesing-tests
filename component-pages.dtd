@@ -14,7 +14,7 @@
 <!ATTLIST callout_image_container href CDATA #REQUIRED>
 <!ELEMENT callout_image_note (#PCDATA)>
 <!ELEMENT components_list_section (web_page_title?,category_box_group?,component_list_container*)>
-<!ELEMENT component_list_container (web_page_subtitle*,web_page_note*,components_table?)>
+<!ELEMENT component_list_container (web_page_subtitle*,web_page_note*,components_table*)>
 <!ELEMENT components_table (table?)>
 <!ELEMENT table (table_head_cell*, table_callout*, table_part_number*, table_description* )>
 <!ELEMENT table_head_cell (#PCDATA)>
