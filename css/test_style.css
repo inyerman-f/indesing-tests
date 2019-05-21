@@ -9,7 +9,7 @@
 
 }
 
-.product-components-item-pages-container,.product-components-list-pages-container{
+.product-components-item-pages-container,.product-components-list-section{
 	width:100%!important;
 	border-bottom:none!important;
 	border-left:none!important;
@@ -54,7 +54,7 @@
     margin: auto;
 }
 
-.components-items-container{
+.component-images-container{
     width: 80%!important;
     display:flex!important;
 	

@@ -1,4 +1,4 @@
-.document-container{
+.components-webpage-container{
     border:thick solid black;
     width:95%;
 	max-width:1000px!important;
@@ -8,10 +8,12 @@
     margin:auto;
 
 }
+.standard-container{
+    border-bottom:thick black solid;
+}
 
-.product-components-item-pages-container,.product-components-list-pages-container{
+.product-components-items-section,.product-components-list-section{
 	width:100%!important;
-	border-bottom:none!important;
 	border-left:none!important;
 	border-right:none!important;
 }
@@ -20,42 +22,50 @@
     position: relative;
     margin: auto;
     width: 100%!important;
-    padding-top: 20px;
 }
 
-.product-page-category-box-group{
+.category-box-group{
 	width:100%!important;
-	padding-top:15px!important;
-	padding-bottom:15px!important;
+	padding-top:20px;
+	padding-bottom:20px;
 }
-.product-page-category-border{
-	width:100%!important;
+.category-box-border{
+    width: 100%!important;
+    height: 10px;
+    background-color: black;
 }
 
-.product-category-box{
-	width: unset!important;
-	position:absolute!important;
-	margin-top: -25px!important;
-	left:0;
-	right: 0;
+.category-box{
+    position: relative;
+    margin-top: -10px!important;
+    left: 0;
+    right: 0;
     margin-left: auto!important;
-	margin-right: auto!important;
+    margin-right: auto!important;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 5px;
 }
 
 .product-page-subtitle{
     width:80%!important;
+    margin:auto;
+    text-align: left;
+    text-decoration: underline;
+
 
 }
 
-.product-notice{
+.notice{
     width: 80%!important;
-    text-align: center!important;
+    text-align: left!important;
     position: relative;
     margin: auto;
 }
 
-.components-items-container{
-    width: 80%!important;
+.component-images-container{
+    width: 80%;
     display:flex!important;
 	
     -webkit-flex-wrap: wrap!important;
@@ -98,24 +108,28 @@ table.Parts-Table{
     width:200px!important;
     height: 200px!important;
     border:medium solid gray;
-    margin-top:-23px;
     z-index:-1;
+    margin:auto;
 }
 
 .callout-img-container>img{
     padding: 10%;
-    height: 80%!important;
-    min-width: 80%!important;
-    width: 80%!important;
+    height: 100%!important;
+    width: 100%!important;
         		
             
 }
 
 .callout-letter{
     position:relative;
-    text-align: center;
+    margin-left: 25px;
+    margin-bottom:unset!important;
+    z-index:1;
     border:none!important;
-    width:250px;
+    text-align:left;
+}
+.callout-letter>h4{
+    margin-bottom:-20px;
 }
 
 
@@ -142,19 +156,18 @@ table.Parts-Table{
 	    position:relative!important;
 	    margin:auto!important
     }
-    .callout-img-container {
-        width: 250px !important;
-        height: 250px !important;
-    }
-    .callout-letter{
-        width: 300px!important;
 
-    }
 
 }
 
 @media (max-width:375px){
+    .component-images-container{
+        width:100%;
+
+    }
     .callout-letter{
+        margin-left:25px;
+        margin-top:5px;
 
     }
 }
