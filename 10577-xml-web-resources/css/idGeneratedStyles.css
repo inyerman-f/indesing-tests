@@ -28,15 +28,6 @@ div.centered-tables {
 div.callout-img-container {
 	border-style:solid;
 }
-div.components-items-container {
-	border-style:solid;
-}
-section.product-components-item-pages-container {
-	border-style:solid;
-}
-section.product-components-list-pages-container {
-	border-style:solid;
-}
 div.product-page-category-box-group {
 	border-style:solid;
 }
@@ -267,28 +258,6 @@ p.category-box-text {
 	text-transform:uppercase;
 	widows:1;
 }
-p.Basic-Paragraph {
-	-epub-hyphens:none;
-	color:#000000;
-	font-family:"Myriad Pro", sans-serif;
-	font-size:12px;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.2;
-	margin-bottom:0;
-	margin-left:18px;
-	margin-right:18px;
-	margin-top:0;
-	orphans:1;
-	page-break-after:auto;
-	page-break-before:auto;
-	text-align:left;
-	text-decoration:none;
-	text-indent:0;
-	text-transform:none;
-	widows:1;
-}
 p.Tables_Centered {
 	-epub-hyphens:none;
 	color:#000000;
@@ -382,10 +351,7 @@ table._idGenTablePara-1 {
 	margin-left:auto;
 	margin-right:auto;
 }
-#_idContainer000, #_idContainer105 {
-	width:576px;
-}
-#_idContainer001, #_idContainer106 {
+#_idContainer001, #_idContainer104 {
 	display:inline-block;
 	height:11px;
 	position:relative;
@@ -396,48 +362,32 @@ table._idGenTablePara-1 {
 	padding:4.50px 4.50px 4.50px 4.50px;
 	width:131px;
 }
-#_idContainer003, #_idContainer108 {
-	display:inline-block;
-	width:612px;
-}
-#_idContainer004 {
-	width:120px;
-}
-#_idContainer005 {
-	display:inline-block;
-	width:147px;
-}
-#_idContainer006, #_idContainer008, #_idContainer010, #_idContainer012, #_idContainer014, #_idContainer016, #_idContainer018, #_idContainer020, #_idContainer022, #_idContainer024, #_idContainer026, #_idContainer028, #_idContainer030, #_idContainer032, #_idContainer034, #_idContainer038, #_idContainer040, #_idContainer042, #_idContainer044, #_idContainer048, #_idContainer050, #_idContainer052, #_idContainer056, #_idContainer058, #_idContainer060, #_idContainer062, #_idContainer064, #_idContainer066, #_idContainer068, #_idContainer070, #_idContainer072, #_idContainer074, #_idContainer076, #_idContainer078, #_idContainer080, #_idContainer082, #_idContainer084, #_idContainer088, #_idContainer090, #_idContainer092, #_idContainer094, #_idContainer098, #_idContainer100, #_idContainer102 {
-	display:inline-block;
-	padding:1.44px 1.44px 1.44px 1.44px;
-	width:20px;
-}
-#_idContainer007, #_idContainer057 {
+#_idContainer007, #_idContainer056 {
 	display:inline-block;
 	height:99px;
 	width:162px;
 }
-#_idContainer009, #_idContainer059 {
+#_idContainer009, #_idContainer058 {
 	display:inline-block;
 	height:129px;
 	width:182px;
 }
-#_idContainer011, #_idContainer061 {
+#_idContainer011, #_idContainer060 {
 	display:inline-block;
 	height:95px;
 	width:151px;
 }
-#_idContainer013, #_idContainer063 {
+#_idContainer013, #_idContainer062 {
 	display:inline-block;
 	height:62px;
 	width:213px;
 }
-#_idContainer015, #_idContainer065 {
+#_idContainer015, #_idContainer064 {
 	display:inline-block;
 	height:89px;
 	width:213px;
 }
-#_idContainer017, #_idContainer067 {
+#_idContainer017, #_idContainer066 {
 	display:inline-block;
 	height:130px;
 	width:66px;
@@ -452,17 +402,17 @@ table._idGenTablePara-1 {
 	height:122px;
 	width:99px;
 }
-#_idContainer023, #_idContainer073 {
+#_idContainer023, #_idContainer072 {
 	display:inline-block;
 	height:130px;
 	width:48px;
 }
-#_idContainer025, #_idContainer075 {
+#_idContainer025, #_idContainer074 {
 	display:inline-block;
 	height:125px;
 	width:64px;
 }
-#_idContainer027, #_idContainer077 {
+#_idContainer027, #_idContainer076 {
 	display:inline-block;
 	height:125px;
 	width:94px;
@@ -472,106 +422,85 @@ table._idGenTablePara-1 {
 	height:120px;
 	width:85px;
 }
-#_idContainer031, #_idContainer081 {
+#_idContainer031, #_idContainer080 {
 	display:inline-block;
 	height:90px;
 	width:30px;
 }
-#_idContainer033, #_idContainer083 {
+#_idContainer033, #_idContainer082 {
 	display:inline-block;
 	height:90px;
 	width:67px;
 }
-#_idContainer035, #_idContainer085 {
+#_idContainer035, #_idContainer084 {
 	display:inline-block;
 	height:90px;
 	width:123px;
 }
-#_idContainer036, #_idContainer046, #_idContainer086, #_idContainer096 {
-	display:inline-block;
-	padding:1.44px 1.44px 1.44px 1.44px;
-	width:21px;
-}
-#_idContainer037, #_idContainer087 {
+#_idContainer037, #_idContainer086 {
 	display:inline-block;
 	height:93px;
 	width:122px;
 }
-#_idContainer039, #_idContainer089 {
+#_idContainer039, #_idContainer088 {
 	display:inline-block;
 	height:64px;
 	width:52px;
 }
-#_idContainer041, #_idContainer091 {
+#_idContainer041, #_idContainer090 {
 	display:inline-block;
 	height:55px;
 	width:81px;
 }
-#_idContainer043, #_idContainer093 {
+#_idContainer043, #_idContainer092 {
 	display:inline-block;
 	height:72px;
 	width:43px;
 }
-#_idContainer045, #_idContainer095 {
+#_idContainer045, #_idContainer094 {
 	display:inline-block;
 	height:42px;
 	width:45px;
 }
-#_idContainer047, #_idContainer097 {
+#_idContainer047, #_idContainer096 {
 	display:inline-block;
 	height:41px;
 	width:45px;
 }
-#_idContainer049, #_idContainer099 {
+#_idContainer049, #_idContainer098 {
 	display:inline-block;
 	height:41px;
 	width:43px;
 }
-#_idContainer051, #_idContainer101 {
+#_idContainer051, #_idContainer100 {
 	display:inline-block;
 	height:34px;
 	width:35px;
 }
-#_idContainer053, #_idContainer103 {
+#_idContainer053, #_idContainer102 {
 	display:inline-block;
 	height:35px;
 	width:40px;
 }
-#_idContainer054, #_idContainer110 {
-	display:inline-block;
-	width:576px;
-}
-#_idContainer055 {
-	display:inline-block;
-	width:117px;
-}
-#_idContainer069 {
+#_idContainer068 {
 	display:inline-block;
 	height:120px;
 	width:144px;
 }
-#_idContainer071 {
+#_idContainer070 {
 	display:inline-block;
 	height:122px;
 	width:146px;
 }
-#_idContainer079 {
+#_idContainer078 {
 	display:inline-block;
 	height:119px;
 	width:80px;
 }
-#_idContainer107 {
+#_idContainer105 {
 	display:inline-block;
 	padding:4.50px 4.50px 4.50px 4.50px;
 	width:157px;
-}
-#_idContainer109 {
-	display:inline-block;
-	width:143px;
-}
-#_idContainer111 {
-	display:inline-block;
-	width:525px;
 }
 img._idGenObjectAttribute-1 {
 	height:100.00%;
