@@ -17,8 +17,10 @@ $page_html =
 $page_html = $page_html.'<div class="components-webpage-container">';
 
  //   $page_html = $page_html.'<section class="standard-section product-components-items-section">';
-
-        foreach ($xmlStr->components_webpage_container->component_images_section as $component_images_section ){
+/**
+ * the following for each and its nested items loop through the xml file to provide the components images with their corresponding callouts.
+ */
+        foreach ($xmlStr->components_webpage->component_images_section as $component_images_section ){
             $page_html = $page_html .'<div class="standard-container product-components-items-section">'.
                     '<div class="product-page-title"><h3 class="page-title">'.strtoupper($component_images_section->product_page_title).'</h3></div>'.
                     '<div class="category-box-group"><div class="category-box-border"><div class="category-box">'.$component_images_section->category_box_group->category_box.'</div></div></div>';
@@ -31,7 +33,7 @@ $page_html = $page_html.'<div class="components-webpage-container">';
                         }
                         $page_html = $page_html.'<div class="component-images-container">';
                             foreach ($components_images_container->component as $component) {
-                                $image_src = str_replace("file:///Users/inyermanfonseca/indd-test/images/","images/", $component->callout_group->callout_image_container['href']);
+                                $image_src = '/images/'. basename( $component->callout_group->callout_image_container['href']);
                                 $page_html = $page_html.'<div class="callout-group">'.
                                         '<div class="callout-letter">'.
                                                '<h4 class="callout-text">'.$component->callout_group->callout_letter.'</h4>'.
@@ -52,7 +54,7 @@ $page_html = $page_html.'<div class="components-webpage-container">';
  //   $page_html = $page_html.'</section>';
 
  //   $page_html = $page_html.'<section class="standard-section product-components-list-section">';
-        foreach ($xmlStr->components_webpage_container->components_list_section as $component_list_section ){
+        foreach ($xmlStr->components_webpage->components_list_section as $component_list_section ){
             $page_html = $page_html .'<div class="standard-container product-components-list-section">'.
                 '<div class="product-page-title"><h3 class="page-title">'.strtoupper($component_list_section->product_page_title).'</h3></div>'.
                 '<div class="category-box-group"><div class="category-box-border"><div class="category-box">'.$component_list_section->category_box_group->category_box.'</div></div></div>';
@@ -96,6 +98,9 @@ $page_html = $page_html.'</div>';
 $page_html = $page_html.'</body>
 </html>';
 
+/**
+ * tidy is being used to format the html output to make it more readable
+ */
 $config = array(
     'indent'         => true,
     'output-xhtml'   => true,
@@ -105,7 +110,7 @@ $config = array(
 $tidy = new tidy;
 $tidy->parseString($page_html, $config, 'utf8');
 $tidy->cleanRepair();
-//$page_html = $tidy->html();
+
 
 echo $page_html;
 //echo $page_html;
