@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	//unwrap elements to clean unnedeed elements
-	$('.component-images-container').unwrap();
+	$('.components-items-container').unwrap();
 	$('.callout-group').unwrap();
 	$('.document-title').unwrap();
     $('.callout-image-note').unwrap();

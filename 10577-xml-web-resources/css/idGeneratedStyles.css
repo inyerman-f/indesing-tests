@@ -229,11 +229,11 @@ p.page-subtitle-text {
 p.page-title {
 	-epub-hyphens:none;
 	color:#000000;
-	font-family:"Cambria Bold", sans-serif;
+	font-family:Cambria, serif;
 	font-size:18px;
 	font-style:normal;
 	font-variant:normal;
-	font-weight:normal;
+	font-weight:bold;
 	line-height:1.2;
 	margin-bottom:0;
 	margin-left:54px;
